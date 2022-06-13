@@ -1,0 +1,54 @@
+@import "../../global.scss";
+
+
+.works{
+    background-color: white;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+ 
+
+    
+   
+
+    h1{
+        font-size: 50px;
+        
+    }
+
+    .port-list{
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+ 
+        width: 70%;
+
+        .item{
+
+            .text{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+
+                text-decoration: none;
+                font-weight: 500;
+
+                .icon{
+                    margin-left: 15px;
+                    margin-right: 5px;
+                    font-size: 18px;
+                }
+
+                
+
+                
+            }
+        }
+    }
+}
